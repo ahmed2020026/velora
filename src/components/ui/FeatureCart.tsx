@@ -7,7 +7,7 @@ const FeatureCart = ({ icon, head, disc }: FeatureTypes) => {
                 {icon}
             </div>
             <div>
-                <h2 className='font-bold text-dark/80 mb-0.5'>{head}</h2>
+                <h2 className='font-semibold text-dark/80 mb-0.5'>{head}</h2>
                 <p className='text-sm text-black/70'>{disc}</p>
             </div>
         </div>

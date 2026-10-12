@@ -6,7 +6,7 @@ const Features = () => {
     return (
         <>
             <div className="container">
-                <div className="grid md:grid-cols-2 gap-5 py-5">
+                <div className="grid md:grid-cols-2 gap-5">
                     {
                         FeaturesItems.map((item,index) => (
                             <div key={index} className={`${index%2 === 0? 'md:border-r': 'border-0'} border-dark/20`}>
