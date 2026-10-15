@@ -13,7 +13,7 @@ const Hero = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#171511]/70 via-transparent to-[#171511]/20" />
             </div>
 
-            <div className='text-white container'>
+            <div className='text-white container mt-5'>
                 <div className="head max-md:text-center">
                     <p className='text-gold uppercase mb-2 text-sm tracking-widest'>Timeless style / modern you</p>
                     <h2 className=' max-md:text-4xl text-5xl font-bold mb-3'>Elevate Your Everyday Look</h2>

@@ -12,6 +12,15 @@
     --color-primary: #F7F3EC;
     --color-secondary: #EDE5D8;
     --color-dark: #171511;
-    --color-gold: #C9A46A;
+    --color-gold: #e6a800;
     --color-white: #FFFFFF;
+}
+/* e6a800  || C9A46A*/
+.star-rating::after{
+    content:"⭐⭐⭐⭐⭐";
+    --rating-percent:calc(var(--rating) / 5 * 100%);
+    background: linear-gradient(90deg , #e6a800 var(--rating-percent), rgb(201, 200, 200) var(--rating-percent));
+    background-clip: text;
+    white-space: nowrap;
+    color:transparent;
 }

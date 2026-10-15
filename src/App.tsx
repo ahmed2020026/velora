@@ -13,9 +13,9 @@ function App() {
       <main>
         <Main/>
       </main>
-      <footer>
+      {/* <footer>
         <Footer />
-      </footer>
+      </footer> */}
     </>
   )
 }
