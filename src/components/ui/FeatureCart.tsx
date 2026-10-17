@@ -2,7 +2,7 @@ import type { FeatureTypes } from '../../assets/System'
 
 const FeatureCart = ({ icon, head, disc }: FeatureTypes) => {
     return (
-        <div className={`flex justify-start items-center gap-5`}>
+        <div className={`flex justify-start items-center gap-5 px-2`}>
             <div className='text-gold '>
                 {icon}
             </div>

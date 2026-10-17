@@ -17,10 +17,10 @@ const ProductCart = ({ product }: { product: productType }) => {
             <div className='body'>
                 <div className='text-[10px] tracking-[1px] flex items-center justify-start gap-1 text-[#e6a800] uppercase mb-1'>
                     {product.category.map((cat, index) => (
-                        <>
+                        <div key={index}>
                             <span>{cat}</span>
                             <span>{index !== product.category.length - 1 ? '/' : null}</span>
-                        </>
+                        </div>
                     ))}
                 </div>
                 <h3 className='line-clamp-2 font-semibold text-dark/80 text-sm'>{product.name}</h3>

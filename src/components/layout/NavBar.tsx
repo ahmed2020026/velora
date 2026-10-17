@@ -12,7 +12,7 @@ const NavBar = () => {
                 <h1 className="text-3xl sm:text-4xl font-bold text-dark">Velora</h1>
             </div>
 
-            <nav className={`${openMenu? 'max-lg:tranform max-lg:translate-y-0 max-lg:opacity-100': 'max-lg:tranform max-lg:opacity-0 max-lg:-translate-y-1 max-lgpointer-events-none' } max-lg:absolute max-lg:top-full max-lg:left-0 max-lg:z-50 max-lg:w-full max-lg:rounded-b-lg max-lg:bg-white max-lg:px-4 max-lg:py-4 max-lg:shadow-lg transition-all duration-300  `}>
+            <nav className={`${openMenu? 'max-lg:tranform max-lg:translate-y-0 max-lg:opacity-100': 'max-lg:tranform max-lg:opacity-0 max-lg:-translate-y-1 max-lg pointer-events-none' } max-lg:absolute max-lg:top-full max-lg:left-0 max-lg:z-50 max-lg:w-full max-lg:rounded-b-lg max-lg:bg-white max-lg:px-4 max-lg:py-4 max-lg:shadow-lg transition-all duration-300  `}>
                 <ul className="flex items-center gap-6 max-lg:flex-col max-lg:items-start max-lg:gap-2">
                     {navLinks.map((link) => (
                         <li key={link.router} className="w-full lg:w-auto">
