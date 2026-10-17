@@ -1,4 +1,4 @@
-import { Heart, ShoppingCartPlus } from 'lucide-react'
+import { Heart } from 'lucide-react'
 import type { productType } from '../../assets/System'
 import Rate from './Rate'
 
@@ -26,16 +26,14 @@ const ProductCart = ({ product }: { product: productType }) => {
                 <h3 className='line-clamp-2 font-semibold text-dark/80 text-sm'>{product.name}</h3>
                 <Rate value={product.rate ?? 0} />
 
-                <p className='mt-2 text-sm font-medium text-dark/70'>{product.price} L.E</p>
+                <p className='mt-2 text-sm font-bold text-dark/70'>{product.price} L.E</p>
             </div>
-            <div className='foot flex items-center justify-between gap-3 mt-5'>
-                <button className='flex items-center justify-center gap-1.5 flex-1 bg-dark/90 hover:bg-dark text-secondary transition-all duration-200 p-2 rounded-md cursor-pointer text-sm'>
-                    <ShoppingCartPlus size={18} /> add to cart
-                </button>
+            
+                
                 <button className='block absolute top-3 right-3 bg-secondary p-2 rounded-full cursor-pointer text-sm text-dark'>
                     <Heart size={18} />
                 </button>
-            </div>
+            
         </div>
     )
 }
