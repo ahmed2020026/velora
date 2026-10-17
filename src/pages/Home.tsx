@@ -1,6 +1,7 @@
 import Categories from '../sections/Categories'
 import Features from '../sections/Features'
 import Hero from '../sections/Hero'
+import NewSetter from '../sections/NewSetter'
 import Products from '../sections/Products'
 import Promotional from '../sections/Promotional'
 
@@ -21,6 +22,9 @@ const Home = () => {
       </section>
       <section className="py-7">
         <Promotional />
+      </section>
+      <section className="py-7">
+        <NewSetter />
       </section>
     </>
   )

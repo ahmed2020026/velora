@@ -13,7 +13,7 @@ function App() {
       <main>
         <Main/>
       </main>
-      <footer>
+      <footer className='bg-dark'>
         <Footer />
       </footer>
     </>
